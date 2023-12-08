@@ -17,3 +17,9 @@
 //     console.log('Hello world!');
 // }
 
+
+var ulang = true;
+while(ulang) {
+    console.log('Hello World!');   
+    ulang = confirm('lagi?');
+}
