@@ -33,7 +33,7 @@ switch( item ) {
     case 'susu' :
         alert('makanan / minuman SEHAT!');
         break;
-    case 'hambuger' :
+    case 'hamburger' :
     case 'softdrink' :
         lert('makanan / minuman TIDAK SEHAT!');
         break;
