@@ -79,8 +79,24 @@
 // console.log(angka2.join(' - '));
 
 // 8. sort
+// var angka = [1,2,10,5,3,20,6,8,4];
+// angka.sort(function(a,b) {
+//     return a-b;
+// });
+// console.log(angka.join(' - '));
+
+// 9. filter & find
+// var angka = [1,2,10,5,3,20,6,8,4];
+// var angka2 = angka.filter(function(x) {
+//     return x > 5;
+// });
+// console.log(angka2.join(' - '));
+
 var angka = [1,2,10,5,3,20,6,8,4];
-angka.sort(function(a,b) {
-    return a-b;
+var angka2 = angka.find(function(x) {
+    return x > 5;
 });
-console.log(angka.join(' - '));
+console.log(angka2);
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
