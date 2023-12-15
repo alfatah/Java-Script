@@ -3,7 +3,7 @@ var tambahPenumpang = function(namaPenumpang, penumpang) {
     // jika angkot kosong
     if( penumpang.length == 0 ) {
         // tambah penumpang di awal array
-        penumpangular.push(namaPenumpang);
+        penumpang.push(namaPenumpang);
         // kembalikan isi array & keluar dari function
         return penumpang;
     } else {
